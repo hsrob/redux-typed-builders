@@ -1,5 +1,5 @@
 {
-  "extends": ["tslint:recommended", "tslint-config-prettier", "tslint-plugin-prettier"],
+  "extends": ["tslint:recommended"],
   "rules": {
     "arrow-return-shorthand": [true],
     "class-name": true,
@@ -32,7 +32,6 @@
     "prefer-object-spread": true,
     "prefer-readonly": true,
     "prefer-template": true,
-    "prettier": true,
     "switch-default": true,
     "variable-name": [true, "allow-leading-underscore", "ban-keywords", "check-format", "allow-pascal-case"]
   }
